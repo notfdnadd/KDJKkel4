@@ -9,11 +9,10 @@
 
 ## Instalasi
 
-Instal docker beserta docker-compose
+Clone ke repo
 ```
-apt-get update
-apt-get install docker-compose
-apt-get install docker
+git clone https://github.com/Shelf-nu/shelf.nu.git
+cd shelf.nu
 ```
 Buat file docker-compose.yml
 ```
