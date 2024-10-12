@@ -1,12 +1,10 @@
 # KDJKkel4
 
-# Aplikasi Web "Atomic Server"
+# Aplikasi Web "Shelf"
 
 ## Sekilas Tentang
 
-Atomic Data merupakan spesifikasi modular yang dirancang untuk berbagi informasi di web. Sebagai spesifikasi modular, pengguna dapat memilih bagian yang ingin digunakan dan mengabaikan bagian lainnya. Namun, Atomic Data Core merupakan bagian yang wajib digunakan, karena semua bagian lain bergantung pada inti ini.
-
-Atomic Data Core memungkinkan penyampaian berbagai jenis informasi, termasuk data pribadi, kosakata, metadata, dokumen, file, dan sebagainya. Sistem ini dirancang agar mudah diserialisasikan ke dalam format JSON maupun format data terhubung (linked data). Sebagai model data yang bertipe, setiap nilai dalam Atomic Data harus divalidasi berdasarkan tipe datanya, untuk memastikan kesesuaian dan keakuratan data yang digunakan.
+**Shelf** adalah platform manajemen inventori open source yang dirancang untuk menyederhanakan pelacakan, pengorganisasian, dan pengelolaan aset untuk individu, bisnis, dan lembaga pendidikan. Dengan fitur utamanya mengelompokkan barang, melacak lokasi aset, dan mengelola informasi terkait setiap item. Aplikasi ini cocok untuk penggunaan pribadi maupun untuk bisnis kecil yang memerlukan sistem manajemen inventaris sederhana namun efektif.
 
 
 ## Instalasi
