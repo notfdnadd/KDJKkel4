@@ -36,7 +36,7 @@ Setup Database
      ```
    - Jalankan supabase CLI 
      ```
-     supabase start
+     supabase bootstrap
      ```
 3. Jalankan inisial migrasi
   ```
