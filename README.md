@@ -19,18 +19,34 @@ Install Dependencies
 npm install
 ```
 Setup Database
-- Buat database supabase
-- Jalankan inisial migrasi
+1. Buat database di supabase (https://supabase.com/)
+2. Install supabase CLI
+   - Instalasi via NPM
+     ```
+     npm install supabase --save-dev
+     ```
+   - Jika ingin menggunakan versi beta, jalankan
+     ```
+     npm i supabase@beta --save-dev
+     ```
+   - Catatan: Jika kamu menggunakan yarn atau bun (alternative package managers), ada angkah tambahan yang perlu diperhatikan. Sebagai contoh, untuk pengguna Yarn 4, perlu menonaktifkan fitur 
+     eksperimental:
+     ```
+     NODE_OPTIONS=--no-experimental-fetch yarn add supabase
+     ```
+   - Jalankan supabase CLI 
+     ```
+     supabase start
+     ```
+3. Jalankan inisial migrasi
   ```
   npm run setup
   ```
-- Mulai local server
+4. Mulai local server
   ```
   npm run dev
   ```
 
-
-	
 
 
 ## Konfigurasi (opsional)
